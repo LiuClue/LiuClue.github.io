@@ -1,0 +1,41 @@
+@font-face
+{
+	font-family: futura;
+	src: url('futura-pt.otf');
+}
+
+body {
+	background: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: black;
+	
+}
+
+nav ul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+ul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.cover
+{
+	text-align: center;
+	list-style-type: none;
+}
+.name
+{
+	
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	
+
+}
+
