@@ -659,7 +659,7 @@ p {
     .carousel-fade .carousel-inner .carousel-item {
         height: 100vh;
     }
-
+/*
     @media (max-width: 767px) {
         .hero h1 {
             font-size: 2.5em;
@@ -702,7 +702,7 @@ p {
         }
     }
 
- /*   @media (max-width: 0px) {
+    @media (max-width: 0px) {
         .hero h1 {
             font-size: 2.5em;
             color: #fff;
