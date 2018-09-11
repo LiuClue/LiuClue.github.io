@@ -683,9 +683,15 @@ p {
 
     @media (max-width: 575px) {
         .hero {
-            position: absolute;
-            top: 45%;
-            padding: 20px 0px;
+            font-size: 2.5em;
+            color: #fff;
+            font-weight: 700;
+            width: 400px;
+            margin: 0;
+            padding: 0;
+            opacity: 1;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
         }
         .hero h1 {
             font-size: 1.9em;
@@ -709,10 +715,15 @@ p {
 
     @media (max-width: 420px) {
         .hero {
-            position: absolute;
-            top: 45%;
-            padding: 20px 0;
-            border: 3px solid #fff;
+            font-size: 2.5em;
+            color: #fff;
+            font-weight: 700;
+            width: 400px;
+            margin: 0;
+            padding: 0;
+            opacity: 1;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
         }
         .hero h1 {
             font-size: 1.7em;
