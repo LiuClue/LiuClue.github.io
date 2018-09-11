@@ -1249,11 +1249,12 @@ p {
 
     #comp-offer {
         padding: 100px 0;
+        padding-left: 40px;
     }
 
     .desc-comp-offer h2,
     .desc-comp-offer>.heading-border-light {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .desc-comp-offer-cont {
