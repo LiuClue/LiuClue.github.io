@@ -681,12 +681,17 @@ p {
         }
     }
 
-    @media (max-width: 0px) {
+    @media (max-width: 575px) {
+        .hero {
+            position: absolute;
+            top: 45%;
+            padding: 20px 0px;
+        }
         .hero h1 {
-            font-size: 2.5em;
+            font-size: 1.9em;
             color: #fff;
             font-weight: 700;
-            width: 400px;
+            width: 370px;
             margin: 0;
             padding: 0;
             opacity: 1;
@@ -694,7 +699,7 @@ p {
             margin-bottom: 30px;
         }
         .hero h3 {
-            font-size: 1em;
+            font-size: .9em;
             color: #fff;
             letter-spacing: 2px;
             line-height: 25px;
@@ -702,12 +707,18 @@ p {
         }
     }
 
- /*   @media (max-width: 0px) {
+    @media (max-width: 420px) {
+        .hero {
+            position: absolute;
+            top: 45%;
+            padding: 20px 0;
+            border: 3px solid #fff;
+        }
         .hero h1 {
-            font-size: 2.5em;
+            font-size: 1.7em;
             color: #fff;
             font-weight: 700;
-            width: 400px;
+            width: 295px;
             margin: 0;
             padding: 0;
             opacity: 1;
@@ -715,13 +726,13 @@ p {
             margin-bottom: 30px;
         }
         .hero h3 {
-            font-size: 1em;
+            font-size: .8em;
             color: #fff;
             letter-spacing: 2px;
             line-height: 25px;
             margin-bottom: 15px;
         }
-    } */
+    }
 
 /*====================================================
                OTHER HOME PAGE
