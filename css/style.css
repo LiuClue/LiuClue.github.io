@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5 {
 
 a {
     font-family: 'Hind', sans-serif;
-    color: #ff3131;
+    color: #2196f3;
 }
 
 p {
@@ -245,7 +245,7 @@ p {
 
     .navbar-nav>li:hover,
     .navbar-nav>li:active {
-        border-bottom: 2px solid #ff3131;
+        border-bottom: 2px solid #2196f3;
         background: #f0f0f0;
     }
 
@@ -261,7 +261,7 @@ p {
 
     .navbar-nav>li>a:hover,
     .navbar-nav>li>a:active {
-        color: #ff3131!important;
+        color: #2196f3!important;
     }
 
     
@@ -280,7 +280,7 @@ p {
     }
 
     .navbar-nav li>.search:hover {
-        color: #ff3131;
+        color: #2196f3;
     }
 
     .navbar .search-open {
@@ -298,12 +298,12 @@ p {
     .navbar .search-open input,
     .navbar .search-open span {
         height: 40px;
-        border-color: #ff3131;
+        border-color: #2196f3;
         line-height: 50px;
     }
 
     .navbar .search-open span {
-        background: #ff3131;
+        background: #2196f3;
         color: #fff;
     }
 
@@ -322,7 +322,7 @@ p {
     }
 
     .vesco-top-nav ul.navbar-nav>li>a.active {
-        color: #ff3131!important;
+        color: #2196f3!important;
     }
       
     @media (min-width: 992px){
@@ -340,10 +340,10 @@ p {
             margin-top: 0px;
             min-width: 450px;
             padding: 0;
-            border-top: 2px solid #ff3131;
+            border-top: 2px solid #2196f3;
             border-left: 2px solid rgba(1, 1, 1, 0);
             border-right: 2px solid rgba(1, 1, 1, 0);
-            border-bottom: 2px solid #ff3131;
+            border-bottom: 2px solid #2196f3;
             border-radius: 0;
         }
     } 
@@ -359,10 +359,10 @@ p {
         margin-top: 0px;
         min-width: 220px;
         padding: 0;
-        border-top: 2px solid #ff3131;
+        border-top: 2px solid #2196f3;
         border-left: 2px solid rgba(1, 1, 1, 0);
         border-right: 2px solid rgba(1, 1, 1, 0);
-        border-bottom: 2px solid #ff3131;
+        border-bottom: 2px solid #2196f3;
         border-radius: 0;
     } 
 
@@ -452,7 +452,7 @@ p {
             padding: 0;
             border-left: 2px solid rgba(1, 1, 1, 0);
             border-right: 2px solid rgba(1, 1, 1, 0);
-            border-bottom: 2px solid #ff3131;
+            border-bottom: 2px solid #2196f3;
             border-radius: 0;
             z-index: 0;
             overflow: hidden;
@@ -531,26 +531,26 @@ p {
     }
 
     .btn-white {
-        border-color: #3d3d3d;
-        background-color: #3d3d3d;
+        border-color: #2196f3;
+        background-color: #2196f3;
         color: #fff;
     }
 
     .btn-white:hover,
     .btn-white:focus {
         background-color: transparent;
-        color: #ff3131;
+        color: #2196f3;
         cursor: pointer;
     }
 
     .btn-green {
-        border-color: #ff5549;
-        color: #ff7369;
+        border-color: #2196f3;
+        color: #2196f3;
     }
 
     .btn-green:hover,
     .btn-green:focus {
-        background-color: #ff3131;
+        background-color: #2196f3;
         color: #fff;
         cursor: pointer;
     }
@@ -583,14 +583,12 @@ p {
 
     .hero {
         position: absolute;
+        top: 45%;
         left: 50%;
-        width: 100%;
         background: rgba(0, 0, 0, 0.7);
-        border: 0px solid #fff;
-        padding: 20px;
-        z-index: 1000;
-        bottom: -1px;
-        opacity:0.1;
+        border: 5px solid #fff;
+        padding: 40px;
+        z-index: 3;
         color: #c0c0c0;
         text-align: center;
         text-transform: uppercase;
@@ -615,7 +613,7 @@ p {
     }
 
     .hero h1 span a {
-        color:#ff3131;
+        color: #2196f3;
         text-decoration: none;
     }
 
@@ -683,15 +681,9 @@ p {
 
     @media (max-width: 575px) {
         .hero {
-            font-size: 2.5em;
-            color: #fff;
-            font-weight: 700;
-            width: 400px;
-            margin: 0;
-            padding: 0;
-            opacity: 1;
-            letter-spacing: 2px;
-            margin-bottom: 30px;
+            position: absolute;
+            top: 45%;
+            padding: 20px 0px;
         }
         .hero h1 {
             font-size: 1.9em;
@@ -715,15 +707,10 @@ p {
 
     @media (max-width: 420px) {
         .hero {
-            font-size: 2.5em;
-            color: #fff;
-            font-weight: 700;
-            width: 400px;
-            margin: 0;
-            padding: 0;
-            opacity: 1;
-            letter-spacing: 2px;
-            margin-bottom: 30px;
+            position: absolute;
+            top: 45%;
+            padding: 20px 0;
+            border: 3px solid #fff;
         }
         .hero h1 {
             font-size: 1.7em;
@@ -836,7 +823,7 @@ p {
 ======================================================*/
 
     .title-bar {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 
     .title-bar h1 {
@@ -849,14 +836,14 @@ p {
     .title-bar .heading-border {
         width: 60px;
         height: 10px;
-        background-color: #ff3131;
+        background-color: #2196f3;
         margin: 0 auto 20px auto;
     }
 
     .heading-border-light {
         width: 30px;
         height: 5px;
-        background-color: #ff3131;
+        background-color: #2196f3;
         margin: 0 0 20px 0;
     }
 
@@ -866,7 +853,7 @@ p {
 
     .title-bar p {
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.5;
         padding-bottom: 40px;
         margin: 0 auto;
@@ -926,7 +913,7 @@ p {
     }
 
     .bg-atlantis {
-        background: #ff3131;
+        background: #2196f3;
     }
 
     .bg-starship {
@@ -987,7 +974,7 @@ p {
 
         .modal-content {
             /*background-color: #ececec;*/
-            border: 3px solid #ff3131;
+            border: 3px solid #2196f3;
             border-radius: 0px;
             outline: 0;
         }
@@ -1078,22 +1065,22 @@ p {
         }
 
         .about .container-fluid .col-md-4 {
-            margin: 0px 0;
+            margin: 15px 0;
         }
     }
 
     @media (max-width: 585px) {
         .about .container-fluid {
-            width: 100%
+            width: 80%
         }
 
         .about .container-fluid .col-md-4 {
-            margin: 0px 0;
+            margin: 15px 0;
         }
     }
 
 
-    @media (max-width: 20px) {
+    @media (max-width: 420px) {
         .about .container-fluid {
             width: 100%
         }
@@ -1117,7 +1104,7 @@ p {
     }
 
     .story-desc>h6 {
-        color: #ff3131;
+        color: #2196f3;
         font-weight: 700;
     }
 
@@ -1136,7 +1123,7 @@ p {
 
     .story-descb:hover {
         box-shadow: 2px 2px 6px 1px rgba(158, 158, 158, 0.77);
-        border-bottom: 5px solid #ff3131;
+        border-bottom: 5px solid #2196f3;
         margin-top: 55px;
         cursor: pointer;
     }
@@ -1181,7 +1168,7 @@ p {
         }
     }
 
-    @media (max-width: 20px) {
+    @media (max-width: 420px) {
         .story-descb {
             padding: 10px 10px 30px 10px;
             margin: 20px 0%;
@@ -1249,12 +1236,11 @@ p {
 
     #comp-offer {
         padding: 100px 0;
-        padding-left: 40px;
     }
 
     .desc-comp-offer h2,
     .desc-comp-offer>.heading-border-light {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .desc-comp-offer-cont {
@@ -1266,7 +1252,7 @@ p {
 
     .desc-comp-offer-cont:hover {
         margin-bottom: 10px;
-        border-bottom: 5px solid #ff3131;
+        border-bottom: 5px solid #2196f3;
         margin-top: -5px;
         cursor: pointer;
     }
@@ -1361,7 +1347,7 @@ p {
         }
     }
 
-    @media (max-width: 020px) {
+    @media (max-width: 420px) {
         #comp-offer .col-sm-6 {
             -ms-flex: 0 0 95%;
             flex: 0 0 95%;
@@ -1481,7 +1467,7 @@ p {
     }
 
     .service-h-desc>h6 {
-        color: #ff3131;
+        color: #2196f3;
         font-weight: 700;
     }
 
@@ -1497,7 +1483,7 @@ p {
         width: 130%;
         margin: 50px -60px 70px 65px;
         box-shadow: 3px 3px 8px 1px #505050;
-        border: 1px solid #ff3131;
+        border: 1px solid #2196f3;
     }
 
     .service-h-tab {
@@ -1516,8 +1502,8 @@ p {
 
     .service-h-tab .nav-tabs>a.active {
         color: #fff;
-        border: 1px solid #ff3131;
-        background: #ff3131;
+        border: 1px solid #2196f3;
+        background: #2196f3;
     }
 
     .service-h-tab .tab-content .tab-pane {
@@ -1542,7 +1528,7 @@ p {
             width: 100%;
             margin: 50px auto 70px auto;
             box-shadow: 3px 3px 8px 1px #505050;
-            border: 1px solid#ff3131;
+            border: 1px solid #2196f3;
         }
     }
 
@@ -1552,7 +1538,7 @@ p {
             height: 370px;
             width: 100%;
             box-shadow: 3px 3px 8px 1px #505050;
-            border: 1px solid #ff3131;
+            border: 1px solid #2196f3;
         }
     }
 
@@ -1572,7 +1558,7 @@ p {
             width: 100%;
             margin: 50px auto 70px auto;
             box-shadow: 3px 3px 8px 1px #505050;
-            border: 1px solid #ff3131;
+            border: 1px solid #2196f3;
         }
 
         .service-h-tab .nav-tabs>a {
@@ -1585,13 +1571,13 @@ p {
         }
     }
 
-    @media (max-width: 20px) {
+    @media (max-width: 420px) {
         .service-himg iframe {
             height: 200px;
             width: 100%;
             margin: 50px auto 70px auto;
             box-shadow: 3px 3px 8px 1px #505050;
-            border: 1px solid #ff3131;
+            border: 1px solid #2196f3;
         }
 
         .service-h-desc {
@@ -1615,7 +1601,7 @@ p {
         padding: 30px;
         background: #fff;
         margin: 0 auto;
-        border-bottom: 5px solid #ff3131;
+        border-bottom: 5px solid #2196F3;
     }
 
     .client-cont img {
@@ -1676,9 +1662,9 @@ p {
         }
     }
 
-    @media (max-width: 20px) {
+    @media (max-width: 420px) {
         h5 {
-            color: #ff3131;
+            color: #2196f3;
             font-size: 16px;
             text-transform: uppercase;
         }
@@ -1699,7 +1685,7 @@ p {
     .contact-h-cont {
         margin: 60px 0;
         padding: 50px;
-        background: rgba(61, 61, 61, 0.65);
+        background: rgba(33, 150, 243, 0.65);
     }
 
     .contact-h-cont input.form-control,
@@ -1709,13 +1695,13 @@ p {
 
     .contact-h-cont button {
         background: #fff;
-        color: #000000;
+        color: #2196f3;
         margin-top: 10px;
         text-align: center;
     }
 
     .contact-h-cont button:hover {
-        background: #ff3131;
+        background: #2196f3;
         color: #fff;
     }
 
