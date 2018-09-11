@@ -1071,7 +1071,7 @@ p {
     }
 
 
-    @media (max-width: 420px) {
+    @media (max-width: 20px) {
         .about .container-fluid {
             width: 100%
         }
@@ -1159,7 +1159,7 @@ p {
         }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 20px) {
         .story-descb {
             padding: 10px 10px 30px 10px;
             margin: 20px 0%;
@@ -1338,7 +1338,7 @@ p {
         }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 020px) {
         #comp-offer .col-sm-6 {
             -ms-flex: 0 0 95%;
             flex: 0 0 95%;
@@ -1562,7 +1562,7 @@ p {
         }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 20px) {
         .service-himg iframe {
             height: 200px;
             width: 100%;
@@ -1653,7 +1653,7 @@ p {
         }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 20px) {
         h5 {
             color: #ff3131;
             font-size: 16px;
