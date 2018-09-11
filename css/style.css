@@ -707,7 +707,7 @@ p {
         }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 0px) {
         .hero {
             position: absolute;
             top: 45%;
