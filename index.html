@@ -26,6 +26,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/contact.css"> 
   </head>
 
   <body id="page-top">
@@ -33,7 +35,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 <!--====================================================
                          HEADER
 ======================================================--> 
-
+<section id="top"></section> 
     <header>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
@@ -46,7 +48,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           </button>  
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item" ><a class="nav-link smooth-scroll" href="index.html">Home</a></li>
+                <li class="nav-item" ><a class="nav-link smooth-scrolls" href="#top">Home</a></li>
                 <li class="nav-item" ><a class="nav-link smooth-scrolls" href="#about">About Us</a></li> 
                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="news-grid.html">Information</a></li>
                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="calendar.html">Events</a></li>
@@ -366,28 +368,56 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <section id="contact-h" class="bg-parallax contact-h-bg">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
             <div class="contact-h-cont">
-              <h3 class="cl-white">Continue The Conversation</h3><br>
-              <form>
-                <div class="form-group cl-white">
-                  <label for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name"> 
-                </div>  
-                <div class="form-group cl-white">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
-                </div>  
-                <div class="form-group cl-white">
-                  <label for="subject">Subject</label>
-                  <input type="text" class="form-control" id="subject" aria-describedby="subjectHelp" placeholder="Enter subject"> 
-                </div>  
-                <div class="form-group cl-white">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
-                </div>  
-                <button class="btn btn-general btn-white" role="button"><i fa fa-right-arrow></i>GET CONVERSATION</button>
-              </form>
+              <section id="contact-p1" class="contact-p1">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="contact-p1-cont">
+                        <h3 class="cl-white">Contact our experienced team</h3>
+                        <div class="heading-border-light"></div> 
+                        <p class="cl-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model texty.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4"> 
+                      <div class="contact-p1-cont2"> 
+                        <address class="address-details-f">
+                          25, Dist town Street, Logn <br>
+                          California, US <br>
+                          Phone: 800 123 3456 <br>
+                          Fax: 800 123 3456 <br>
+                          Email: <a href="mailto:info@Businessbox.com" class="">info@Businessbox.com</a>
+                        </address>
+                        <ul class="list-inline social-icon-f top-data">
+                          <li><a href="#" target="_empty"><i class="fa top-social fa-facebook" style="height: 35px; width:35px; line-height: 35px;"></i></a></li>
+                          <li><a href="#" target="_empty"><i class="fa top-social fa-twitter" style="height: 35px; width:35px; line-height: 35px;"></i></a></li>
+                          <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus" style="height: 35px; width:35px; line-height: 35px;"></i></a></li> 
+                        </ul>
+                    </div>  
+                  </div>
+                </div>
+              </section>
+          
+          <!--====================================================
+                                  CONTACT-P2 
+          ======================================================--> 
+              <service class="contact-p2" id="contact-p2">
+                <div class="container">
+                    <div class="row con-form">
+                      <div class="col-md-4">
+                        <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                      </div>
+                      <div class="col-md-4">
+                        <input type="text" name="email" placeholder="Email Id" class="form-control">
+                      </div>
+                      <div class="col-md-4">
+                        <input type="text" name="subject" placeholder="Subject" class="form-control">
+                      </div>
+                      <div class="col-md-12"><textarea name="" id=""></textarea></div>
+                      <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
+                    </div>
+                </div>
+              </service>
             </div>
           </div>
         </div>
@@ -531,7 +561,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 </div>
             </div>
         </div>
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
+        <a href="#top" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
             <i class="fa fa-angle-up"></i>
         </a>
     </footer>
