@@ -153,26 +153,26 @@ p {
         color: #fff;
     }
 
-    header .topmenu .top-data li i.top-social.fa-twitter,
-    .social-icon-f li i.top-social.fa-twitter {
-        border: 2px solid #4AB3F4;
-        color: #4AB3F4;
+    header .topmenu .top-data li i.top-social.fa-linkedin,
+    .social-icon-f li i.top-social.fa-linkedin {
+        border: 2px solid #0077B5;
+        color: #0077B5;
     }
 
-    header .topmenu .top-data li i.top-social.fa-twitter:hover,
-    .social-icon-f li i.top-social.fa-twitter:hover {
-        background: #4AB3F4;
+    header .topmenu .top-data li i.top-social.fa-linkedin:hover,
+    .social-icon-f li i.top-social.fa-linkedin:hover {
+        background: #0077B5;
         color: #fff;
     }
 
-    header .topmenu .top-data li i.top-social.fa-google-plus,
-    .social-icon-f li i.top-social.fa-google-plus {
+    header .topmenu .top-data li i.top-social.fa-user-plus,
+    .social-icon-f li i.top-social.fa-user-plus {
         border: 2px solid #e24343;
         color: #e24343;
     }
 
-    header .topmenu .top-data li i.top-social.fa-google-plus:hover,
-    .social-icon-f li i.top-social.fa-google-plus:hover {
+    header .topmenu .top-data li i.top-social.fa-user-plus:hover,
+    .social-icon-f li i.top-social.fa-user-plus:hover {
         background: #e24343;
         color: #fff;
     }
