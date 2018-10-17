@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-carletonblockchain.ca
-=======
-http://carletonblockchain.ca
->>>>>>> d151793ba203a230c1c954234eccfe5998aa1736
