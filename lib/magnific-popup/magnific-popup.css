@@ -250,8 +250,7 @@ img.mfp-img {
   line-height: 0;
   box-sizing: border-box;
   padding: 40px 0 40px;
-  margin: 0 auto;
-  float: left; }
+  margin: 0 auto; }
 
 /* The shadow behind the image */
 .mfp-figure {
@@ -286,13 +285,11 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-    text-align: left;
-    line-height: 18px;
-    color: #F3F3F3;
-    word-wrap: break-word;
-    padding: 50px 30px;
-    float: right;
-}
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px; }
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
