@@ -152,6 +152,7 @@ $(document).ready(function() {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // ========================================================================= //
     //  magnificPopup
     // ========================================================================= //
@@ -207,6 +208,10 @@ $(document).ready(function() {
 
     // Call the functions
     magnifPopup();
+=======
+  // Call the functions
+  magnifPopup();
+>>>>>>> parent of e71f18f (format)
 =======
   // Call the functions
   magnifPopup();
