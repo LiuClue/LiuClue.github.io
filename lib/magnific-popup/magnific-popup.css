@@ -290,8 +290,8 @@ img.mfp-img {
     line-height: 18px;
     color: #F3F3F3;
     word-wrap: break-word;
-    padding: 50px 30px;
-    float: right;
+    padding: 70px 30px;
+    float: left;
 }
 
 .mfp-image-holder .mfp-content {
@@ -340,6 +340,9 @@ img.mfp-img {
     padding: 0; } }
 
 @media all and (max-width: 900px) {
+    .mfp-title {
+        padding-top: 0px;
+    }
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75); }

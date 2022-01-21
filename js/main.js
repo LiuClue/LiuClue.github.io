@@ -148,11 +148,10 @@ $(document).ready(function() {
         }
       }
     });
-  };
+    };
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     // ========================================================================= //
     //  magnificPopup
     // ========================================================================= //
@@ -172,17 +171,9 @@ $(document).ready(function() {
                     '</div>' +
                     '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
 
-
-                cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
-
-                titleSrc: 'title', // Attribute of the target element that contains caption for the slide.
-                // Or the function that should return the title. For example:
-                // titleSrc: function(item) {
-                //   return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-                // }
-
-                verticalFit: true, // Fits image in area vertically
-
+                titleSrc: function (item) {
+                    return item.el.attr('title') + item.el.attr('body');
+                }
             },
             gallery: {
                 enabled: true
@@ -208,13 +199,4 @@ $(document).ready(function() {
 
     // Call the functions
     magnifPopup();
-=======
-  // Call the functions
-  magnifPopup();
->>>>>>> parent of e71f18f (format)
-=======
-  // Call the functions
-  magnifPopup();
->>>>>>> parent of e71f18f (format)
-
 });
