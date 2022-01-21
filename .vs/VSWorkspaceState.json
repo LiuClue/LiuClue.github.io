@@ -1,15 +1,10 @@
 {
   "ExpandedNodes": [
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     "",
-    "\\js"
-=======
-    ""
->>>>>>> Stashed changes
-=======
-    ""
->>>>>>> Stashed changes
+    "\\css",
+    "\\js",
+    "\\lib"
   ],
+  "SelectedNode": "\\js\\main.js",
   "PreviewInSolutionExplorer": false
 }
