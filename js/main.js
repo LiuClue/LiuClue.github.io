@@ -148,7 +148,8 @@ $(document).ready(function() {
         }
       }
     });
-    };
+  };
+
 
 
 

@@ -3,8 +3,8 @@
     "",
     "\\css",
     "\\js",
-    "\\lib"
+    "\\lib",
+    "\\lib\\magnific-popup"
   ],
-  "SelectedNode": "\\js\\main.js",
   "PreviewInSolutionExplorer": false
 }
