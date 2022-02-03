@@ -148,8 +148,7 @@ $(document).ready(function() {
         }
       }
     });
-  };
-
+    };
 
 
 
@@ -166,7 +165,7 @@ $(document).ready(function() {
                 markup: '<div class="mfp-figure">' +
                     '<div class="mfp-close"></div>' +
                     '<div class="mfp-img"></div>' + // Floated left
-                    '<div class="mfp-title"></div>' + // This is floated right shows up on the right side
+                    '<div class="mfp-title" style="max-width: 400px"></div>' + // This is floated right shows up on the right side
                     '<div class="mfp-bottom-bar">' +
                     '<div class="mfp-counter"></div>' +
                     '</div>' +
